@@ -1,0 +1,74 @@
+@media(max-width: 480px) {
+    body {
+        margin: 0;
+        width: 100%;
+    }
+    .header {
+        padding: 20px;
+        &-top {
+            padding: 0;
+            &__logo {
+                margin: 0;
+            }
+            &__nav {
+                display: none;
+            }
+            &__buttons {
+                display: none;
+            }
+        }
+        &-bottom {
+            display: none;
+        }
+    }
+    .what-we-do {
+        padding: 20px;
+        flex-wrap: wrap;
+        &__items {
+            width: 45%;
+        }
+    }
+    .screenshots {
+        display: none;
+    }
+    .adv-line {
+        display: none;
+    }
+    .projects {
+        padding: 20px;
+        justify-content: center;
+        &__items {
+            padding: 0;
+        }
+    }
+    .video {
+        display: none;
+    }
+    .mobile {
+        padding: 20px;
+        &__wrp {
+            padding: 0;
+        }
+    }
+    .statistics {
+        padding: 20px;
+    }
+    .posts {
+        padding: 20px;
+        &__wrp {
+            flex-wrap: wrap;
+        }
+    }
+    .partners {
+        padding: 20px;
+    }
+    .footer {
+        padding: 20px;
+        &-top {
+            padding: 0;
+        }
+        &-bottom {
+            padding: 0;
+        }
+    }
+}
